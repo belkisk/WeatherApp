@@ -1,0 +1,33 @@
+.results {
+  display: none;
+}
+.submit-button:focus {
+  font-weight: bold;
+}
+
+.input-text:focus {
+  outline: none;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #003049;
+  color: #D62828
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  padding: 10px;
+}
